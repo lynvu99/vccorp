@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+.app-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../src/assets/Group 58.png");
+}
+.description {
+  max-width: 308px;
+}
+.text-doctor {
+  color: #ffde05;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.mobile {
+  display: none;
+}
+@media (max-width: 640px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .app-wrapper {
+    background-image: url("../src/assets/Mob.png");
+    background-size: cover;
+  }
+}
